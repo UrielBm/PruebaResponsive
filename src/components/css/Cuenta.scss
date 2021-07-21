@@ -22,6 +22,7 @@ $secondpink: #e03be0;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   .formCuenta {
     width: 20rem;
     margin: 2rem 0;
@@ -77,6 +78,10 @@ $secondpink: #e03be0;
         background-color: $secondpink;
         border: none;
       }
+    }
+    @media screen and (min-width: 320px) and (max-width: 720px) {
+      border: none;
+      margin: 0 0 1rem 0;
     }
   }
 }

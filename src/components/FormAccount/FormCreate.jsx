@@ -20,25 +20,25 @@ const FormCreate = () => {
               Soy <span>coleccionista</span>
             </h3>
           </div>
-          <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">
+          <div className="mb-3">
+            <label htmlFor="exampleInputEmail2" className="form-label">
               Email address
             </label>
             <input
               type="email"
-              class="form-control"
-              id="exampleInputEmail1"
+              className="form-control"
+              id="exampleInputEmail2"
               aria-describedby="emailHelp"
             />
           </div>
-          <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">
+          <div className="mb-3">
+            <label htmlFor="exampleInputPassword2" className="form-label">
               Password
             </label>
             <input
               type="password"
-              class="form-control"
-              id="exampleInputPassword1"
+              className="form-control"
+              id="exampleInputPassword2"
             />
           </div>
           <div className="wrapperlink">
@@ -47,7 +47,7 @@ const FormCreate = () => {
             </a>
           </div>
           <div className="wrapperButton">
-            <button type="submit" class="btn btn-primary buttonLogin">
+            <button type="submit" className="btn btn-primary buttonLogin">
               Crear cuenta
             </button>
           </div>
@@ -68,7 +68,7 @@ const FormCreate = () => {
             </p>
           </div>
           <div className="wrapperButton">
-            <button type="submit" class="btn btn-primary buttonLogin">
+            <button type="submit" className="btn btn-primary buttonLogin">
               Aplicar Ahora
             </button>
           </div>

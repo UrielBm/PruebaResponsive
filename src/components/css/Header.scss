@@ -21,25 +21,41 @@
           width: 10rem;
         }
       }
-      .wrapperItems {
-        width: 10rem;
+      .wrapperHamburgerMenu {
+        display: none;
+      }
+      .wrapperMenu {
         display: flex;
-        justify-content: center;
-        li {
-          margin-right: 1rem;
+        justify-content: space-between;
+        width: 55%;
+        .wrapperItems {
+          width: 10rem;
+          display: flex;
+          justify-content: center;
+          li {
+            margin-right: 1rem;
+          }
+        }
+        .wrapperIcons {
+          width: 10rem;
+          display: flex;
+          justify-content: space-around;
+          align-items: baseline;
+          .icons {
+            display: flex;
+            align-items: baseline;
+            p {
+              color: #93206f;
+            }
+          }
         }
       }
-      .wrapperIcons {
-        width: 10rem;
-        display: flex;
-        justify-content: space-around;
-        align-items: baseline;
-        .icons {
-          display: flex;
-          align-items: baseline;
-          p {
-            color: #93206f;
-          }
+      @media screen and (min-width: 320px) and (max-width: 720px) {
+        .wrapperHamburgerMenu {
+          display: block;
+        }
+        .wrapperMenu {
+          display: none;
         }
       }
     }
