@@ -11,7 +11,7 @@ const FormCreate = () => {
         </p>
       </div>
       <div className="wrapperForms">
-        <form className="form">
+        <form className="formCuenta">
           <div className="wrapperIcon">
             <img alt="iconSeach" src={SearchIcon} className="icon" />
           </div>
@@ -48,15 +48,29 @@ const FormCreate = () => {
           </div>
           <div className="wrapperButton">
             <button type="submit" class="btn btn-primary buttonLogin">
-              Entrar
+              Crear cuenta
             </button>
           </div>
         </form>
-        <div>
-          <div className="wrapperSubTitle">
+        <div className="wrapperArtista">
+          <div className="wrapperIcon">
+            <img alt="iconSeach" src={PincelIcon} className="icon" />
+          </div>
+          <div className="wrapperSubtitle">
             <h3>
               Soy <span>artista</span>
             </h3>
+          </div>
+          <div className="wrapperText">
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta
+              numquam aut, quis asperiores vitae animi ducimus
+            </p>
+          </div>
+          <div className="wrapperButton">
+            <button type="submit" class="btn btn-primary buttonLogin">
+              Aplicar Ahora
+            </button>
           </div>
         </div>
       </div>

@@ -1,3 +1,5 @@
+$colorPink: #93206f;
+$secondpink: #e03be0;
 .wrapperTitle {
   text-align: center;
   font-size: 2rem;
@@ -6,8 +8,23 @@
     font-weight: bold;
   }
 }
+.wrapperSubtitle {
+  text-align: center;
+  margin-bottom: 1rem;
+  h3 {
+    font-size: 1.4rem;
+    span {
+      font-weight: bold;
+    }
+  }
+}
 .wrapperForms {
-  .form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .formCuenta {
+    width: 20rem;
+    margin: 2rem 0;
     .wrapperIcon {
       display: flex;
       justify-content: center;
@@ -16,14 +33,49 @@
         width: 5rem;
       }
     }
-    .wrapperSubtitle {
-      text-align: center;
+    .wrapperlink {
       margin-bottom: 1rem;
-      h3 {
-        font-size: 1.4rem;
-        span {
-          font-weight: bold;
-        }
+      a {
+        color: $colorPink;
+      }
+    }
+    .wrapperButton {
+      display: flex;
+      justify-content: center;
+      .buttonLogin {
+        width: 14rem;
+        background-color: $secondpink;
+        border: none;
+      }
+    }
+  }
+  .wrapperArtista {
+    width: 20rem;
+    border-left: 2px solid #ccc;
+    margin-left: 2rem;
+    .wrapperIcon {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 0.5rem;
+      .icon {
+        width: 3rem;
+      }
+    }
+    .wrapperText {
+      padding: 0.5rem 2rem;
+      margin-bottom: 1rem;
+      p {
+        text-align: center;
+        font-size: 0.9rem;
+      }
+    }
+    .wrapperButton {
+      display: flex;
+      justify-content: center;
+      .buttonLogin {
+        width: 14rem;
+        background-color: $secondpink;
+        border: none;
       }
     }
   }
