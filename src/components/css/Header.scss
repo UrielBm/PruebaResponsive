@@ -1,0 +1,35 @@
+.header {
+  background-color: #1d1528;
+  width: 100%;
+  min-height: 85px;
+  color: white;
+  .wrapperTitle {
+    text-align: center;
+  }
+  .wrapperNav {
+    width: 100%;
+    .Nav {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 60px;
+      .wrapperLogo {
+        .logo {
+          width: 10rem;
+        }
+      }
+      .wrapperItems {
+        width: 10rem;
+        display: flex;
+        justify-content: center;
+        li {
+          margin-right: 1rem;
+        }
+      }
+      .wrapperIcons {
+        width: 10rem;
+      }
+    }
+  }
+}
