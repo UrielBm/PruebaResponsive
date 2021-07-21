@@ -1,3 +1,5 @@
+$colorPink: #93206f;
+$secondpink: #e03be0;
 .form {
   max-width: 20rem;
   margin: 2rem auto;
@@ -10,6 +12,21 @@
         margin-left: 1rem;
         font-weight: bold;
       }
+    }
+  }
+  .wrapperlink {
+    margin-bottom: 1rem;
+    a {
+      color: $colorPink;
+    }
+  }
+  .wrapperButton {
+    display: flex;
+    justify-content: center;
+    .buttonLogin {
+      width: 14rem;
+      background-color: $secondpink;
+      border: none;
     }
   }
 }

@@ -1,0 +1,30 @@
+.wrapperTitle {
+  text-align: center;
+  font-size: 2rem;
+  span {
+    margin-left: 1rem;
+    font-weight: bold;
+  }
+}
+.wrapperForms {
+  .form {
+    .wrapperIcon {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 0.5rem;
+      .icon {
+        width: 5rem;
+      }
+    }
+    .wrapperSubtitle {
+      text-align: center;
+      margin-bottom: 1rem;
+      h3 {
+        font-size: 1.4rem;
+        span {
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}

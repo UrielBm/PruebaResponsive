@@ -1,3 +1,4 @@
+import FormCreate from "./components/FormAccount/FormCreate";
 import Header from "./components/Header/Header";
 import Login from "./components/Login/Login";
 import "./reset.css";
@@ -8,6 +9,7 @@ function App() {
       <Header />
       <main className="wrapperMain">
         <Login />
+        <FormCreate />
       </main>
     </div>
   );

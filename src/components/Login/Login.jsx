@@ -29,14 +29,16 @@ const Login = () => {
           id="exampleInputPassword1"
         />
       </div>
-      <div>
-        <a href="#" className="linkPssword">
+      <div className="wrapperlink">
+        <a href="!#" className="linkPssword">
           olvide mi contraseña
         </a>
       </div>
-      <button type="submit" class="btn btn-primary">
-        Entrar
-      </button>
+      <div className="wrapperButton">
+        <button type="submit" class="btn btn-primary buttonLogin">
+          Entrar
+        </button>
+      </div>
     </form>
   );
 };
