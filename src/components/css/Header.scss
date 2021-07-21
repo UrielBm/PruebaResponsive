@@ -14,6 +14,7 @@
       justify-content: space-between;
       align-items: center;
       height: 60px;
+      padding: 0 2rem;
       .wrapperLogo {
         .logo {
           width: 10rem;
@@ -29,6 +30,16 @@
       }
       .wrapperIcons {
         width: 10rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: baseline;
+        .icons {
+          display: flex;
+          align-items: baseline;
+          p {
+            color: #93206f;
+          }
+        }
       }
     }
   }

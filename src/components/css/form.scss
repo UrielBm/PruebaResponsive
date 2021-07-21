@@ -1,0 +1,15 @@
+.form {
+  max-width: 20rem;
+  margin: 2rem auto;
+  .wrapperTitle {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    .title {
+      span {
+        margin-left: 1rem;
+        font-weight: bold;
+      }
+    }
+  }
+}
